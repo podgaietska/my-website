@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="mystyles.css"> <!--linking css styling externally-->
+        <title>Personal Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <nav>
+                <img src="https://res.cloudinary.com/dvidz0oub/image/upload/v1681697613/Screenshot_2023-04-16_at_20.13.26_dfndou.png" class="logo" height="80px" > 
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="contact-container">
+                <div class="decor">
+                    <div class="extra-contact">
+                        <p id="my-message">Feel free to send me a message using the form or contact me on any of the following:</p>
+                        <div class="space"></div>
+                        <div class="socials">
+                            <div class="social-row">
+                                <a href="https://www.linkedin.com/in/mariya-podgaietska/" class="social" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+                                <a class="social-link" href="https://www.linkedin.com/in/mariya-podgaietska/" target="_blank">LinkedIn</a>
+                            </div>   
+                            <div class="social-row">
+                                <a href="https://github.com/podgaietska" class="social" target="_blank"><i class="fa fa-github"></i></a>
+                                <a class="social-link" href="https://github.com/podgaietska" target="_blank">Github</a>
+                            </div>  
+                            <div class="social-row">
+                                <a href="#" class="social"><i class="fa fa-envelope"></i></a>
+                                <small>podgaietska.m@gmail.com</small>
+                            </div>
+                        </div>
+                    </div>
+                    <p id="_contact">&lt;/contact&gt;</p>
+                    <p id="contact">&lt;contact&gt;</p>
+                </div>
+                <div class="form-detail">
+                    <form class="contact-form" target="_blank" action="https://formsubmit.co/podgaietska.m@gmail.com" method="POST">
+                        <div class="form-group">
+                            <p>Fill out the form to send a message</p>
+                            <small>Name</small>
+                            <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+                            <small>Email</small>
+                            <input type="email" name="email" class="form-control" placeholder="Email Address" required>
+                            <small>Message</small>
+                            <textarea placeholder="Enter your message" class="form-text" name="message" rows="10" required></textarea>
+                            <button type="submit" class="form-btn">Submit Form</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
